@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Mano Auto</string>
+
+
+    <string name="login_label">"Auto"</string>
+    <string name="login_username">Prisijungimo vardas</string>
+    <string name="login_password">Slaptažodis</string>
+    <string name="login_submit_btn">Prisijungti</string>
+    <string name="login_regist_btn">Registruotis</string>
+    <string name="login_remember">Prisiminti</string>
+    <string name="login_invalid_username">Tokio vartotojo nerasta</string>
+    <string name="login_invalid_password">Blogai įvestas slaptažodis</string>
+
+    <string name="search_label">"Paieška"</string>
+    <string name="search_submit">Ieškoti</string>
+
+
+    <string name="regist_username">Vartotojo vardas:</string>
+    <string name="regist_email">Elektroninis paštas:</string>
+    <string name="regist_password">Slaptažodis:</string>
+    <string name="regist_submit_btn">Registruotis</string>
+    <string name="regist_submit_back">Grįžti atgal</string>
+    <string name="regist_label">"Registracija"</string>
+
+    <string name="newEntry_label">Naujas įrašas</string>
+    <string name="newEntry_name">Įveskite automobilį</string>
+    <string name="newEntry_submit">Įrašyti</string>
+    <string name="newEntry_radio">Kurioj pusėj vairas?</string>
+    <string name="newEntry_radio_vairas_kairej">Kairėj</string>
+    <string name="newEntry_radio_vairas_desinej">Dešinėj</string>
+    <string-array name="kuro_tipas">
+        <item>Benzinas</item>
+        <item>Dyzelis</item>
+        <item>Elektra</item>
+        <item>Benzinas/Dujos</item>
+    </string-array>
+    <string name="newEntry_radio2">Koks kėbulo tipas?</string>
+    <string name="newEntry_radio2_sedanas">Sedanas</string>
+    <string name="newEntry_radio2_universalas">Universalas</string>
+    <string name="newEntry_radio2_vienaturis">Vienaturis</string>
+    <string name="newEntry_bukle">Kokio automobilio ieškote?</string>
+    <string name="newEntry_bukle_naujas">Naujas</string>
+    <string name="newEntry_bukle_naudotas">Naudotas</string>
+    <string name="newEntry_bukle_dauztas">Daužtas</string>
+</resources>

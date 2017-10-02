@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/newEntry_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/newEntry_name"
+                android:textColor="@android:color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioGroup
+                android:id="@+id/radioVairas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newEntry_radio" />
+
+                <RadioButton
+                    android:id="@+id/radioVairasKairėj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/newEntry_radio_vairas_kairej" />
+
+                <RadioButton
+                    android:id="@+id/radioVairasDesinej"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newEntry_radio_vairas_desinej" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Spinner
+                android:id="@+id/newEntryKuras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/kuro_tipas"
+                android:spinnerMode="dropdown" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioGroup
+                android:id="@+id/kebuloTipas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newEntry_radio2" />
+
+                <RadioButton
+                    android:id="@+id/radioKebulasSedanas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/newEntry_radio2_sedanas" />
+
+                <RadioButton
+                    android:id="@+id/radioKebulasUniversalas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newEntry_radio2_universalas" />
+
+                <RadioButton
+                    android:id="@+id/radioKebulasVienaturis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newEntry_radio2_vienaturis" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/newEntry_bukle" />
+
+            <CheckBox
+                android:id="@+id/bukle_naujas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newEntry_bukle_naujas" />
+
+            <CheckBox
+                android:id="@+id/bukle_naudotas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newEntry_bukle_naudotas" />
+
+            <CheckBox
+                android:id="@+id/bukle_dauztas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newEntry_bukle_dauztas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/newEntry_submit"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/newEntry_submit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
