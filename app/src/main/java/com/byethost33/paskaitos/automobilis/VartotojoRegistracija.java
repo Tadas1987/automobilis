@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 
 public class VartotojoRegistracija {
 
+    //Pridejau eilute
+
     private String usernameLogin, usernameRegister, password, email;
     private static final String PREFERENCES_FILE_NAME = "com.example.egzaminai.medis";
     private static final String USERNAME_KEY = "username";
@@ -13,7 +15,7 @@ public class VartotojoRegistracija {
 
     private SharedPreferences sharedPrefs;
 
-    //Naujo vartotojo registracija
+    //Naujo vartotojo registracija2
     public VartotojoRegistracija(String usernameRegister, String password, String email) {
         this.usernameRegister = usernameRegister;
         this.password = password;
